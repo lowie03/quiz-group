@@ -20,7 +20,7 @@ let questions = []; //voir json
 
 fetch(
     //"questions.json"
-    // "https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple"
+    "https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple"
     // "https://www.khanacademy.org/api/v1/exercises"
     )
 .then(res =>{
