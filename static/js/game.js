@@ -20,7 +20,11 @@ let questions = []; //voir json
 
 fetch(
     //"questions.json"
+<<<<<<< HEAD
     "https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple"
+=======
+    // "https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple"
+>>>>>>> b1fe81c (updates)
     // "https://www.khanacademy.org/api/v1/exercises"
     )
 .then(res =>{
@@ -58,9 +62,17 @@ fetch(
     });
 
 
+<<<<<<< HEAD
 //CONSTANTS
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
+=======
+
+
+//CONSTANTS
+const CORRECT_BONUS = 10;
+const MAX_QUESTIONS = 5;
+>>>>>>> b1fe81c (updates)
 
 startGame = () =>{
     questionCounter = 0;
@@ -135,7 +147,15 @@ choices.forEach(choice =>{
                 getNewQuestions();
             },1000); //how long to do the main setTimeout
 
+<<<<<<< HEAD
         
+=======
+             //or use :
+            /* const classToApply = 'incorrect';
+             if(selectedAnswer == currentQuestion.answer){
+                 classToApply = 'correct'
+             }*/
+>>>>>>> b1fe81c (updates)
 
           
            

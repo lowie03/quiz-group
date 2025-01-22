@@ -19,8 +19,13 @@ let questions = []; //voir json
 //fetch question from .json:
 fetch(
     //"questions.json"
+<<<<<<< HEAD
     // "https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple"
     "https://www.khanacademy.org/api/v1/exercises"
+=======
+    "https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple"
+
+>>>>>>> b1fe81c (updates)
     )
 .then(res =>{
     return res.json();
@@ -84,7 +89,11 @@ fetch(
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
+<<<<<<< HEAD
 const MAX_QUESTIONS = 5;
+=======
+const MAX_QUESTIONS = 3;
+>>>>>>> b1fe81c (updates)
 
 startGame = () =>{
     questionCounter = 0;
